@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+// function decleration
+void swap(int *x,int *y);
+int main(){
+    //loacl variable decleration
+    int a=100;
+    int b=200;
+    cout<<"Before Swap";
+    value of a:<<a<<endl;
+    cout<<"Before Swap";
+    value of b:<<b<<endl;
+    swap(&a,&b);
+    cout<<"After swap value of a:"<<a<<endl;
+    cout<<"After swap value of b:"<<b<<endl;
+    return 0;
+}
